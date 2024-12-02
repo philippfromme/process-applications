@@ -1,0 +1,390 @@
+[
+  {
+    "uri": "file:///C:/workspace/philippfromme/process-applications/customer-onboarding/bar.bpmn",
+    "file": {
+      "cwd": "C:\\workspace\\philippfromme\\process-applications",
+      "data": {},
+      "history": [
+        "C:\\workspace\\philippfromme\\process-applications\\customer-onboarding\\bar.bpmn"
+      ],
+      "messages": [],
+      "value": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<bpmn:definitions xmlns:bpmn=\"http://www.omg.org/spec/BPMN/20100524/MODEL\" xmlns:bpmndi=\"http://www.omg.org/spec/BPMN/20100524/DI\" xmlns:dc=\"http://www.omg.org/spec/DD/20100524/DC\" xmlns:modeler=\"http://camunda.org/schema/modeler/1.0\" id=\"Definitions_02yb3uy\" targetNamespace=\"http://bpmn.io/schema/bpmn\" exporter=\"Camunda Modeler\" exporterVersion=\"5.30.0-rc.1\" modeler:executionPlatform=\"Camunda Cloud\" modeler:executionPlatformVersion=\"8.6.0\">\n  <bpmn:process id=\"bar\" isExecutable=\"true\">\n    <bpmn:startEvent id=\"StartEvent_1\" />\n  </bpmn:process>\n  <bpmndi:BPMNDiagram id=\"BPMNDiagram_1\">\n    <bpmndi:BPMNPlane id=\"BPMNPlane_1\" bpmnElement=\"bar\">\n      <bpmndi:BPMNShape id=\"StartEvent_1_di\" bpmnElement=\"StartEvent_1\">\n        <dc:Bounds x=\"182\" y=\"82\" width=\"36\" height=\"36\" />\n      </bpmndi:BPMNShape>\n    </bpmndi:BPMNPlane>\n  </bpmndi:BPMNDiagram>\n</bpmn:definitions>\n"
+    },
+    "value": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<bpmn:definitions xmlns:bpmn=\"http://www.omg.org/spec/BPMN/20100524/MODEL\" xmlns:bpmndi=\"http://www.omg.org/spec/BPMN/20100524/DI\" xmlns:dc=\"http://www.omg.org/spec/DD/20100524/DC\" xmlns:modeler=\"http://camunda.org/schema/modeler/1.0\" id=\"Definitions_02yb3uy\" targetNamespace=\"http://bpmn.io/schema/bpmn\" exporter=\"Camunda Modeler\" exporterVersion=\"5.30.0-rc.1\" modeler:executionPlatform=\"Camunda Cloud\" modeler:executionPlatformVersion=\"8.6.0\">\n  <bpmn:process id=\"bar\" isExecutable=\"true\">\n    <bpmn:startEvent id=\"StartEvent_1\" />\n  </bpmn:process>\n  <bpmndi:BPMNDiagram id=\"BPMNDiagram_1\">\n    <bpmndi:BPMNPlane id=\"BPMNPlane_1\" bpmnElement=\"bar\">\n      <bpmndi:BPMNShape id=\"StartEvent_1_di\" bpmnElement=\"StartEvent_1\">\n        <dc:Bounds x=\"182\" y=\"82\" width=\"36\" height=\"36\" />\n      </bpmndi:BPMNShape>\n    </bpmndi:BPMNPlane>\n  </bpmndi:BPMNDiagram>\n</bpmn:definitions>\n",
+    "_parsed": {},
+    "parsedValue": {
+      "type": "bpmn",
+      "definitions": {
+        "$type": "bpmn:Definitions",
+        "id": "Definitions_02yb3uy",
+        "targetNamespace": "http://bpmn.io/schema/bpmn",
+        "exporter": "Camunda Modeler",
+        "exporterVersion": "5.30.0-rc.1",
+        "rootElements": [
+          {
+            "$type": "bpmn:Process",
+            "id": "bar",
+            "isExecutable": true,
+            "flowElements": [
+              {
+                "$type": "bpmn:StartEvent",
+                "id": "StartEvent_1"
+              }
+            ]
+          }
+        ],
+        "diagrams": [
+          {
+            "$type": "bpmndi:BPMNDiagram",
+            "id": "BPMNDiagram_1",
+            "plane": {
+              "$type": "bpmndi:BPMNPlane",
+              "id": "BPMNPlane_1",
+              "planeElement": [
+                {
+                  "$type": "bpmndi:BPMNShape",
+                  "id": "StartEvent_1_di",
+                  "bounds": {
+                    "$type": "dc:Bounds",
+                    "x": 182,
+                    "y": 82,
+                    "width": 36,
+                    "height": 36
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "processIds": [
+        "bar"
+      ],
+      "linkedProcessIds": [],
+      "linkedDecisionIds": [],
+      "linkedFormIds": []
+    }
+  },
+  {
+    "uri": "file:///C:/workspace/philippfromme/process-applications/customer-onboarding/foo/baz.form",
+    "file": {
+      "cwd": "C:\\workspace\\philippfromme\\process-applications",
+      "data": {},
+      "history": [
+        "C:\\workspace\\philippfromme\\process-applications\\customer-onboarding\\foo\\baz.form"
+      ],
+      "messages": [],
+      "value": "{\n  \"components\": [],\n  \"type\": \"default\",\n  \"id\": \"foo\",\n  \"executionPlatform\": \"Camunda Cloud\",\n  \"executionPlatformVersion\": \"8.6.0\",\n  \"exporter\": {\n    \"name\": \"Camunda Modeler\",\n    \"version\": \"5.30.0-rc.1\"\n  },\n  \"schemaVersion\": 17\n}"
+    },
+    "value": "{\n  \"components\": [],\n  \"type\": \"default\",\n  \"id\": \"foo\",\n  \"executionPlatform\": \"Camunda Cloud\",\n  \"executionPlatformVersion\": \"8.6.0\",\n  \"exporter\": {\n    \"name\": \"Camunda Modeler\",\n    \"version\": \"5.30.0-rc.1\"\n  },\n  \"schemaVersion\": 17\n}",
+    "_parsed": {},
+    "parsedValue": {
+      "type": "form",
+      "form": {
+        "components": [],
+        "type": "default",
+        "id": "foo",
+        "executionPlatform": "Camunda Cloud",
+        "executionPlatformVersion": "8.6.0",
+        "exporter": {
+          "name": "Camunda Modeler",
+          "version": "5.30.0-rc.1"
+        },
+        "schemaVersion": 17
+      },
+      "formId": "foo"
+    }
+  },
+  {
+    "uri": "file:///C:/workspace/philippfromme/process-applications/customer-onboarding/foo/foo.bpmn",
+    "file": {
+      "cwd": "C:\\workspace\\philippfromme\\process-applications",
+      "data": {},
+      "history": [
+        "C:\\workspace\\philippfromme\\process-applications\\customer-onboarding\\foo\\foo.bpmn"
+      ],
+      "messages": [],
+      "value": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<bpmn:definitions xmlns:bpmn=\"http://www.omg.org/spec/BPMN/20100524/MODEL\" xmlns:bpmndi=\"http://www.omg.org/spec/BPMN/20100524/DI\" xmlns:dc=\"http://www.omg.org/spec/DD/20100524/DC\" xmlns:zeebe=\"http://camunda.org/schema/zeebe/1.0\" xmlns:di=\"http://www.omg.org/spec/DD/20100524/DI\" xmlns:modeler=\"http://camunda.org/schema/modeler/1.0\" id=\"Definitions_02yb3uy\" targetNamespace=\"http://bpmn.io/schema/bpmn\" exporter=\"Camunda Modeler\" exporterVersion=\"5.29.0\" modeler:executionPlatform=\"Camunda Cloud\" modeler:executionPlatformVersion=\"8.6.0\">\n  <bpmn:process id=\"foo\" isExecutable=\"true\">\n    <bpmn:startEvent id=\"StartEvent_1\">\n      <bpmn:outgoing>Flow_0vgsdmf</bpmn:outgoing>\n    </bpmn:startEvent>\n    <bpmn:callActivity id=\"CallActivity\">\n      <bpmn:extensionElements>\n        <zeebe:calledElement processId=\"bar\" propagateAllChildVariables=\"false\" />\n      </bpmn:extensionElements>\n      <bpmn:incoming>Flow_0vgsdmf</bpmn:incoming>\n      <bpmn:outgoing>Flow_0ar1np2</bpmn:outgoing>\n    </bpmn:callActivity>\n    <bpmn:sequenceFlow id=\"Flow_0vgsdmf\" sourceRef=\"StartEvent_1\" targetRef=\"CallActivity\" />\n    <bpmn:businessRuleTask id=\"BusinessRuleTask\">\n      <bpmn:extensionElements>\n        <zeebe:calledDecision decisionId=\"foo\" />\n      </bpmn:extensionElements>\n      <bpmn:incoming>Flow_0ar1np2</bpmn:incoming>\n      <bpmn:outgoing>Flow_1jhgote</bpmn:outgoing>\n    </bpmn:businessRuleTask>\n    <bpmn:sequenceFlow id=\"Flow_0ar1np2\" sourceRef=\"CallActivity\" targetRef=\"BusinessRuleTask\" />\n    <bpmn:userTask id=\"UserTask\">\n      <bpmn:extensionElements>\n        <zeebe:formDefinition formId=\"foo\" />\n      </bpmn:extensionElements>\n      <bpmn:incoming>Flow_1jhgote</bpmn:incoming>\n    </bpmn:userTask>\n    <bpmn:sequenceFlow id=\"Flow_1jhgote\" sourceRef=\"BusinessRuleTask\" targetRef=\"foo\" />\n  </bpmn:process>\n  <bpmndi:BPMNDiagram id=\"BPMNDiagram_1\">\n    <bpmndi:BPMNPlane id=\"BPMNPlane_1\" bpmnElement=\"foo\">\n      <bpmndi:BPMNShape id=\"StartEvent_1_di\" bpmnElement=\"StartEvent_1\">\n        <dc:Bounds x=\"182\" y=\"102\" width=\"36\" height=\"36\" />\n      </bpmndi:BPMNShape>\n      <bpmndi:BPMNShape id=\"Activity_1qwgeew_di\" bpmnElement=\"CallActivity\">\n        <dc:Bounds x=\"270\" y=\"80\" width=\"100\" height=\"80\" />\n      </bpmndi:BPMNShape>\n      <bpmndi:BPMNShape id=\"Activity_1fx3e1a_di\" bpmnElement=\"BusinessRuleTask\">\n        <dc:Bounds x=\"430\" y=\"80\" width=\"100\" height=\"80\" />\n      </bpmndi:BPMNShape>\n      <bpmndi:BPMNShape id=\"Activity_09xomdq_di\" bpmnElement=\"UserTask\">\n        <dc:Bounds x=\"590\" y=\"80\" width=\"100\" height=\"80\" />\n      </bpmndi:BPMNShape>\n      <bpmndi:BPMNEdge id=\"Flow_0vgsdmf_di\" bpmnElement=\"Flow_0vgsdmf\">\n        <di:waypoint x=\"218\" y=\"120\" />\n        <di:waypoint x=\"270\" y=\"120\" />\n      </bpmndi:BPMNEdge>\n      <bpmndi:BPMNEdge id=\"Flow_0ar1np2_di\" bpmnElement=\"Flow_0ar1np2\">\n        <di:waypoint x=\"370\" y=\"120\" />\n        <di:waypoint x=\"430\" y=\"120\" />\n      </bpmndi:BPMNEdge>\n      <bpmndi:BPMNEdge id=\"Flow_1jhgote_di\" bpmnElement=\"Flow_1jhgote\">\n        <di:waypoint x=\"530\" y=\"120\" />\n        <di:waypoint x=\"590\" y=\"120\" />\n      </bpmndi:BPMNEdge>\n    </bpmndi:BPMNPlane>\n  </bpmndi:BPMNDiagram>\n</bpmn:definitions>\n"
+    },
+    "value": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<bpmn:definitions xmlns:bpmn=\"http://www.omg.org/spec/BPMN/20100524/MODEL\" xmlns:bpmndi=\"http://www.omg.org/spec/BPMN/20100524/DI\" xmlns:dc=\"http://www.omg.org/spec/DD/20100524/DC\" xmlns:zeebe=\"http://camunda.org/schema/zeebe/1.0\" xmlns:di=\"http://www.omg.org/spec/DD/20100524/DI\" xmlns:modeler=\"http://camunda.org/schema/modeler/1.0\" id=\"Definitions_02yb3uy\" targetNamespace=\"http://bpmn.io/schema/bpmn\" exporter=\"Camunda Modeler\" exporterVersion=\"5.29.0\" modeler:executionPlatform=\"Camunda Cloud\" modeler:executionPlatformVersion=\"8.6.0\">\n  <bpmn:process id=\"foo\" isExecutable=\"true\">\n    <bpmn:startEvent id=\"StartEvent_1\">\n      <bpmn:outgoing>Flow_0vgsdmf</bpmn:outgoing>\n    </bpmn:startEvent>\n    <bpmn:callActivity id=\"CallActivity\">\n      <bpmn:extensionElements>\n        <zeebe:calledElement processId=\"bar\" propagateAllChildVariables=\"false\" />\n      </bpmn:extensionElements>\n      <bpmn:incoming>Flow_0vgsdmf</bpmn:incoming>\n      <bpmn:outgoing>Flow_0ar1np2</bpmn:outgoing>\n    </bpmn:callActivity>\n    <bpmn:sequenceFlow id=\"Flow_0vgsdmf\" sourceRef=\"StartEvent_1\" targetRef=\"CallActivity\" />\n    <bpmn:businessRuleTask id=\"BusinessRuleTask\">\n      <bpmn:extensionElements>\n        <zeebe:calledDecision decisionId=\"foo\" />\n      </bpmn:extensionElements>\n      <bpmn:incoming>Flow_0ar1np2</bpmn:incoming>\n      <bpmn:outgoing>Flow_1jhgote</bpmn:outgoing>\n    </bpmn:businessRuleTask>\n    <bpmn:sequenceFlow id=\"Flow_0ar1np2\" sourceRef=\"CallActivity\" targetRef=\"BusinessRuleTask\" />\n    <bpmn:userTask id=\"UserTask\">\n      <bpmn:extensionElements>\n        <zeebe:formDefinition formId=\"foo\" />\n      </bpmn:extensionElements>\n      <bpmn:incoming>Flow_1jhgote</bpmn:incoming>\n    </bpmn:userTask>\n    <bpmn:sequenceFlow id=\"Flow_1jhgote\" sourceRef=\"BusinessRuleTask\" targetRef=\"foo\" />\n  </bpmn:process>\n  <bpmndi:BPMNDiagram id=\"BPMNDiagram_1\">\n    <bpmndi:BPMNPlane id=\"BPMNPlane_1\" bpmnElement=\"foo\">\n      <bpmndi:BPMNShape id=\"StartEvent_1_di\" bpmnElement=\"StartEvent_1\">\n        <dc:Bounds x=\"182\" y=\"102\" width=\"36\" height=\"36\" />\n      </bpmndi:BPMNShape>\n      <bpmndi:BPMNShape id=\"Activity_1qwgeew_di\" bpmnElement=\"CallActivity\">\n        <dc:Bounds x=\"270\" y=\"80\" width=\"100\" height=\"80\" />\n      </bpmndi:BPMNShape>\n      <bpmndi:BPMNShape id=\"Activity_1fx3e1a_di\" bpmnElement=\"BusinessRuleTask\">\n        <dc:Bounds x=\"430\" y=\"80\" width=\"100\" height=\"80\" />\n      </bpmndi:BPMNShape>\n      <bpmndi:BPMNShape id=\"Activity_09xomdq_di\" bpmnElement=\"UserTask\">\n        <dc:Bounds x=\"590\" y=\"80\" width=\"100\" height=\"80\" />\n      </bpmndi:BPMNShape>\n      <bpmndi:BPMNEdge id=\"Flow_0vgsdmf_di\" bpmnElement=\"Flow_0vgsdmf\">\n        <di:waypoint x=\"218\" y=\"120\" />\n        <di:waypoint x=\"270\" y=\"120\" />\n      </bpmndi:BPMNEdge>\n      <bpmndi:BPMNEdge id=\"Flow_0ar1np2_di\" bpmnElement=\"Flow_0ar1np2\">\n        <di:waypoint x=\"370\" y=\"120\" />\n        <di:waypoint x=\"430\" y=\"120\" />\n      </bpmndi:BPMNEdge>\n      <bpmndi:BPMNEdge id=\"Flow_1jhgote_di\" bpmnElement=\"Flow_1jhgote\">\n        <di:waypoint x=\"530\" y=\"120\" />\n        <di:waypoint x=\"590\" y=\"120\" />\n      </bpmndi:BPMNEdge>\n    </bpmndi:BPMNPlane>\n  </bpmndi:BPMNDiagram>\n</bpmn:definitions>\n",
+    "_parsed": {},
+    "parsedValue": {
+      "type": "bpmn",
+      "definitions": {
+        "$type": "bpmn:Definitions",
+        "id": "Definitions_02yb3uy",
+        "targetNamespace": "http://bpmn.io/schema/bpmn",
+        "exporter": "Camunda Modeler",
+        "exporterVersion": "5.29.0",
+        "rootElements": [
+          {
+            "$type": "bpmn:Process",
+            "id": "foo",
+            "isExecutable": true,
+            "flowElements": [
+              {
+                "$type": "bpmn:StartEvent",
+                "id": "StartEvent_1"
+              },
+              {
+                "$type": "bpmn:CallActivity",
+                "id": "CallActivity",
+                "extensionElements": {
+                  "$type": "bpmn:ExtensionElements",
+                  "values": [
+                    {
+                      "$type": "zeebe:CalledElement",
+                      "processId": "bar",
+                      "propagateAllChildVariables": false
+                    }
+                  ]
+                }
+              },
+              {
+                "$type": "bpmn:SequenceFlow",
+                "id": "Flow_0vgsdmf"
+              },
+              {
+                "$type": "bpmn:BusinessRuleTask",
+                "id": "BusinessRuleTask",
+                "extensionElements": {
+                  "$type": "bpmn:ExtensionElements",
+                  "values": [
+                    {
+                      "$type": "zeebe:CalledDecision",
+                      "decisionId": "foo"
+                    }
+                  ]
+                }
+              },
+              {
+                "$type": "bpmn:SequenceFlow",
+                "id": "Flow_0ar1np2"
+              },
+              {
+                "$type": "bpmn:UserTask",
+                "id": "UserTask",
+                "extensionElements": {
+                  "$type": "bpmn:ExtensionElements",
+                  "values": [
+                    {
+                      "$type": "zeebe:FormDefinition",
+                      "formId": "foo"
+                    }
+                  ]
+                }
+              },
+              {
+                "$type": "bpmn:SequenceFlow",
+                "id": "Flow_1jhgote"
+              }
+            ]
+          }
+        ],
+        "diagrams": [
+          {
+            "$type": "bpmndi:BPMNDiagram",
+            "id": "BPMNDiagram_1",
+            "plane": {
+              "$type": "bpmndi:BPMNPlane",
+              "id": "BPMNPlane_1",
+              "planeElement": [
+                {
+                  "$type": "bpmndi:BPMNShape",
+                  "id": "StartEvent_1_di",
+                  "bounds": {
+                    "$type": "dc:Bounds",
+                    "x": 182,
+                    "y": 102,
+                    "width": 36,
+                    "height": 36
+                  }
+                },
+                {
+                  "$type": "bpmndi:BPMNShape",
+                  "id": "Activity_1qwgeew_di",
+                  "bounds": {
+                    "$type": "dc:Bounds",
+                    "x": 270,
+                    "y": 80,
+                    "width": 100,
+                    "height": 80
+                  }
+                },
+                {
+                  "$type": "bpmndi:BPMNShape",
+                  "id": "Activity_1fx3e1a_di",
+                  "bounds": {
+                    "$type": "dc:Bounds",
+                    "x": 430,
+                    "y": 80,
+                    "width": 100,
+                    "height": 80
+                  }
+                },
+                {
+                  "$type": "bpmndi:BPMNShape",
+                  "id": "Activity_09xomdq_di",
+                  "bounds": {
+                    "$type": "dc:Bounds",
+                    "x": 590,
+                    "y": 80,
+                    "width": 100,
+                    "height": 80
+                  }
+                },
+                {
+                  "$type": "bpmndi:BPMNEdge",
+                  "id": "Flow_0vgsdmf_di",
+                  "waypoint": [
+                    {
+                      "$type": "dc:Point",
+                      "x": 218,
+                      "y": 120
+                    },
+                    {
+                      "$type": "dc:Point",
+                      "x": 270,
+                      "y": 120
+                    }
+                  ]
+                },
+                {
+                  "$type": "bpmndi:BPMNEdge",
+                  "id": "Flow_0ar1np2_di",
+                  "waypoint": [
+                    {
+                      "$type": "dc:Point",
+                      "x": 370,
+                      "y": 120
+                    },
+                    {
+                      "$type": "dc:Point",
+                      "x": 430,
+                      "y": 120
+                    }
+                  ]
+                },
+                {
+                  "$type": "bpmndi:BPMNEdge",
+                  "id": "Flow_1jhgote_di",
+                  "waypoint": [
+                    {
+                      "$type": "dc:Point",
+                      "x": 530,
+                      "y": 120
+                    },
+                    {
+                      "$type": "dc:Point",
+                      "x": 590,
+                      "y": 120
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "processIds": [
+        "foo"
+      ],
+      "linkedProcessIds": [
+        {
+          "callActivity": "CallActivity",
+          "processId": "bar"
+        }
+      ],
+      "linkedDecisionIds": [
+        {
+          "businessRuleTask": "BusinessRuleTask",
+          "decisionId": "foo"
+        }
+      ],
+      "linkedFormIds": [
+        {
+          "userTask": "UserTask",
+          "formId": "foo"
+        }
+      ]
+    }
+  },
+  {
+    "uri": "file:///C:/workspace/philippfromme/process-applications/customer-onboarding/foo/foo.dmn",
+    "file": {
+      "cwd": "C:\\workspace\\philippfromme\\process-applications",
+      "data": {},
+      "history": [
+        "C:\\workspace\\philippfromme\\process-applications\\customer-onboarding\\foo\\foo.dmn"
+      ],
+      "messages": [],
+      "value": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<definitions xmlns=\"https://www.omg.org/spec/DMN/20191111/MODEL/\" xmlns:dmndi=\"https://www.omg.org/spec/DMN/20191111/DMNDI/\" xmlns:dc=\"http://www.omg.org/spec/DMN/20180521/DC/\" xmlns:modeler=\"http://camunda.org/schema/modeler/1.0\" id=\"Definitions_0ql4hel\" name=\"DRD\" namespace=\"http://camunda.org/schema/1.0/dmn\" exporter=\"Camunda Modeler\" exporterVersion=\"5.30.0-rc.1\" modeler:executionPlatform=\"Camunda Cloud\" modeler:executionPlatformVersion=\"8.6.0\">\n  <decision id=\"foo\" name=\"Decision 1\">\n    <decisionTable id=\"DecisionTable_0fhkr8n\">\n      <input id=\"Input_1\">\n        <inputExpression id=\"InputExpression_1\" typeRef=\"string\">\n          <text></text>\n        </inputExpression>\n      </input>\n      <output id=\"Output_1\" typeRef=\"string\" />\n    </decisionTable>\n  </decision>\n  <dmndi:DMNDI>\n    <dmndi:DMNDiagram>\n      <dmndi:DMNShape dmnElementRef=\"foo\">\n        <dc:Bounds height=\"80\" width=\"180\" x=\"160\" y=\"100\" />\n      </dmndi:DMNShape>\n    </dmndi:DMNDiagram>\n  </dmndi:DMNDI>\n</definitions>\n"
+    },
+    "value": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<definitions xmlns=\"https://www.omg.org/spec/DMN/20191111/MODEL/\" xmlns:dmndi=\"https://www.omg.org/spec/DMN/20191111/DMNDI/\" xmlns:dc=\"http://www.omg.org/spec/DMN/20180521/DC/\" xmlns:modeler=\"http://camunda.org/schema/modeler/1.0\" id=\"Definitions_0ql4hel\" name=\"DRD\" namespace=\"http://camunda.org/schema/1.0/dmn\" exporter=\"Camunda Modeler\" exporterVersion=\"5.30.0-rc.1\" modeler:executionPlatform=\"Camunda Cloud\" modeler:executionPlatformVersion=\"8.6.0\">\n  <decision id=\"foo\" name=\"Decision 1\">\n    <decisionTable id=\"DecisionTable_0fhkr8n\">\n      <input id=\"Input_1\">\n        <inputExpression id=\"InputExpression_1\" typeRef=\"string\">\n          <text></text>\n        </inputExpression>\n      </input>\n      <output id=\"Output_1\" typeRef=\"string\" />\n    </decisionTable>\n  </decision>\n  <dmndi:DMNDI>\n    <dmndi:DMNDiagram>\n      <dmndi:DMNShape dmnElementRef=\"foo\">\n        <dc:Bounds height=\"80\" width=\"180\" x=\"160\" y=\"100\" />\n      </dmndi:DMNShape>\n    </dmndi:DMNDiagram>\n  </dmndi:DMNDI>\n</definitions>\n",
+    "_parsed": {},
+    "parsedValue": {
+      "type": "dmn",
+      "definitions": {
+        "$type": "dmn:Definitions",
+        "id": "Definitions_0ql4hel",
+        "name": "DRD",
+        "namespace": "http://camunda.org/schema/1.0/dmn",
+        "exporter": "Camunda Modeler",
+        "exporterVersion": "5.30.0-rc.1",
+        "drgElement": [
+          {
+            "$type": "dmn:Decision",
+            "id": "foo",
+            "name": "Decision 1",
+            "decisionLogic": {
+              "$type": "dmn:DecisionTable",
+              "id": "DecisionTable_0fhkr8n",
+              "input": [
+                {
+                  "$type": "dmn:InputClause",
+                  "id": "Input_1",
+                  "inputExpression": {
+                    "$type": "dmn:LiteralExpression",
+                    "id": "InputExpression_1",
+                    "typeRef": "string",
+                    "text": ""
+                  }
+                }
+              ],
+              "output": [
+                {
+                  "$type": "dmn:OutputClause",
+                  "id": "Output_1",
+                  "typeRef": "string"
+                }
+              ]
+            }
+          }
+        ],
+        "dmnDI": {
+          "$type": "dmndi:DMNDI",
+          "diagrams": [
+            {
+              "$type": "dmndi:DMNDiagram",
+              "diagramElements": [
+                {
+                  "$type": "dmndi:DMNShape",
+                  "bounds": {
+                    "$type": "dc:Bounds",
+                    "height": 80,
+                    "width": 180,
+                    "x": 160,
+                    "y": 100
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "decisionIds": [
+        "foo"
+      ]
+    }
+  }
+]

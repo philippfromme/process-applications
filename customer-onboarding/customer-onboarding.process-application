@@ -1,0 +1,5 @@
+{
+  "name": "Customer onboarding",
+  "executionPlatform": "camunda-cloud",
+  "executionPlatformVersion": "8.2.0"
+}

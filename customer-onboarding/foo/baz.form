@@ -1,0 +1,12 @@
+{
+  "components": [],
+  "type": "default",
+  "id": "foo",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.6.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.30.0-rc.1"
+  },
+  "schemaVersion": 17
+}

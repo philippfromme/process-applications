@@ -57,7 +57,7 @@ export interface IndexItem extends Record<string, any> {
   version?: number,
   localValue?: string,
   file: File,
-  parseTree?: Root
+  parsedValue: any
 }
 
 export {
