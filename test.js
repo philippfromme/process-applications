@@ -9,9 +9,21 @@ const processApplications = new ProcessApplications(console);
 processApplications.on('ready', () => {
   console.log('Process applications is ready!');
 
-  console.log('items', JSON.stringify(processApplications._indexer.getItems(), null, 2));
+  // console.log('items', JSON.stringify(processApplications._indexer.getItems(), null, 2));
 
   fs.writeFileSync('test.json', JSON.stringify(processApplications._indexer.getItems(), null, 2));
+
+  // find references to DMN decision with ID 'foo'
+  console.log('references to DMN decision with ID \'foo\'', processApplications.findReferences({
+    type: 'dmn',
+    id: 'foo'
+  }));
+
+  // get completions for DMN decision ID starting with 'fo'
+  console.log('completions for DMN decision ID starting with \'fo\'', processApplications.getCompletions({
+    type: 'dmn',
+    value: 'fo'
+  }));
 });
 
 // intialize
